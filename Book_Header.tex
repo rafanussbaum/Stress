@@ -1,0 +1,37 @@
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{cite}
+%___________________________________________________
+% Attempt to fix graphics loading problem starts here 
+\usepackage{blindtext}     % Attempt to fix graphics loading problem
+\usepackage{quotchap} % MAkes the chapter titles, should do some quotes, but doesn't really work
+\usepackage{epigraph} % For quotes
+\usepackage[etex]{adjustbox}
+\usepackage{wrapfig}
+\usepackage{mwe}
+\setlength\epigraphwidth{.4\textwidth}
+\usepackage{framed, multido}
+\usepackage{outlines}
+
+\newcommand{\mytextbox}[2][6]{% 6\baselineskip bydefault
+\begin{framed}
+\noindent#2%
+\multido{\i=1+1}{#1}{\newline …}
+\end{framed}}
+
+
+\usepackage{minitoc}
+
+\usepackage{subfiles} % Best loaded last in the preamble
+
+\graphicspath{ {./images/} {./images/Stress/} {./images/Learning/}} 
+
+%\makeatletter    % Attempt to fix graphics loading problem
+%\def\input@path{{.} {/images/} {/images/Stress/}}
+%\makeatother
+% Attempt to fix graphics loading problem ends here
+%__________________________________________________
+
+\makeindex
+\author{translated by Raphael A. Nussbaum}
+\title{Stress \\ What It Is and How We Can Regulate It.}
