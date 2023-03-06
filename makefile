@@ -6,7 +6,7 @@ BUILDTEX=latex $(PROJECT).tex
 DVIPDF=dvipdf $(PROJECT).dvi
 
 all:
-	$(BUIDTEX)
+	$(BUILDTEX)
 	$(BIBTEX)
 	$(BUILDTEX)
 	$(BUILDTEX)
