@@ -1,4 +1,6 @@
-\graphicspath{{images/}} % Location of the slide background and figure files
+\documentclass[../Talk.StressRegulation.tex]{subfiles}
+\graphicspath{{\subfix{../images/}}}
+\begin{document}
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -7,11 +9,11 @@
 \title[Stress regulation]{Stress Regulation} % The short title appears at the bottom of every slide, the full title is only on the title page
 \subtitle{What is Stress and What can We do about It?}
 
-\input{author}
+\subfile{author}
 
 
 
-\begin{document}
+
 
 
  \begin{frame}
@@ -38,24 +40,12 @@
 
 %\input{Goals} % okay for article
 
-\begin{frame}
-\section{What can be done?}
-%\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-%\column{.3\textwidth} % Left column and width
-%\includegraphics[width=\linewidth]{Question}
-%\column{0.7\textwidth} % Right column and width
+\section{Exercise --- PACE}
 
- \begin{itemize}
- \item \structure{Regulate}
- \item \structure{Negative stress} vs \structure{positive stress}
- \item \structure{Stress resistance} 
- \item \structure{Relaxation} and \structure{mindfulness} exercises
- \item \structure{Eat consciously}
- \item A \structure{Mindful life} 
- \end{itemize}
-%\end{columns}
-\end{frame}
+\subfile{Pace.tex}
 
+\section{Theory}
+\subfile{Theory_talk.tex}
 
 
 % %------------------------------------------------
