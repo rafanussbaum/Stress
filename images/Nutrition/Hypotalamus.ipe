@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20230517145557" modified="D:20230517152951"/>
+<info created="D:20230517145557" modified="D:20230518003032"/>
 <bitmap id="1" width="2000" height="1648" BitsPerComponent="8" ColorSpace="DeviceGray" Filter="FlateDecode" length="261416" encoding="base64">
 eNrsnWVgFUcXhieeACEQCCFICO5eXAsUiluR4i5FP9yKO0WLFihe3KW4uxWHYMEtQATist/M
 rM3u3Ztk90ZIOM8P2J3dWbmZnXfkzDkcBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -9873,5 +9873,9 @@ h
 <text matrix="1 0 0 1 0 -8.60986" pin="h" pos="0 632.666" stroke="black" type="minipage" width="283.815" height="42.747" depth="37.84" valign="top">The hypothalamus is a part of the brain of the size of a su\-gar cube. It consists of multiple little agglomeration of nerve cells, the nuclei.
 
 Together with the pituary gland, they regulate and measure the body temperature, intake of nutrition, water-salt metabolism, blood circluation, awake and sleep rhythm and the actions of the hormones. Thet are also involved in emotions like anger or fear.</text>
+</page>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
 </page>
 </ipe>
