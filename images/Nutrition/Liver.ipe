@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20231010093147" modified="D:20231010162759"/>
+<info created="D:20231010093147" modified="D:20231014130612"/>
+<preamble>\renewcommand\familydefault{\sfdefault}</preamble>
 <bitmap id="1" width="1103" height="1103" BitsPerComponent="8" ColorSpace="DeviceRGB" Filter="DCTDecode" length="103177" encoding="base64">
 /9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAA
 Af/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQT
@@ -2226,36 +2227,35 @@ h
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
 <image layer="alpha" matrix="0.713431 0 0 0.713431 170.508 227.391" rect="0 123.5 595 718.5" bitmap="1"/>
-<text matrix="1 0 0 1 176 -64" transformations="translations" pos="16 832" stroke="black" type="minipage" width="378.578" height="29.839" depth="24.9" valign="baseline">The liver is wedge shaped and is located in the abdominal cavity in the upper part, right. It&apos;s one of the biggest bodily organs. It is separated into two lobes by the ligamentum falciforme hepatis. The left lobe is the smaller one. Each lobe consists of thousands of hexagonal liver lobes (lobuli hepatis) which consist of billions of cells. Minuscule tubes, the bile ducts build an intricate network of connections.</text>
-<text matrix="1 0 0 1 176 -16" transformations="translations" pos="16 832" stroke="black" type="label" width="258.499" height="17.213" depth="0" valign="baseline" size="Huge">The structure of the liver
+<text matrix="1 0 0 1 176.455 -70.3723" transformations="translations" pos="16 832" stroke="black" type="minipage" width="378.578" height="29.839" depth="24.9" valign="baseline">The liver is wedge shaped and is located in the abdominal cavity in the upper part, right. It&apos;s one of the biggest bodily organs. It is separated into two lobes by the ligamentum falciforme hepatis. The left lobe is the smaller one. Each lobe consists of thousands of hexagonal liver lobes (lobuli hepatis) which consist of billions of cells. Minuscule tubes, the bile ducts build an intricate network of connections.</text>
+<text matrix="1 0 0 1 176.455 -35.5721" transformations="translations" pos="16 832" stroke="black" type="label" width="253.017" height="17.213" depth="0" valign="baseline" size="Huge">The structure of the liver
 </text>
-<text matrix="1 0 0 1 128 -128" transformations="translations" pos="320 752" stroke="black" type="label" width="134.994" height="6.926" depth="1.93" valign="baseline">Ligamentum falciforme hepatis</text>
+<text matrix="1 0 0 1 128 -128" transformations="translations" pos="320 752" stroke="black" type="minipage" width="127.795" height="17.825" depth="12.86" valign="baseline" size="Large">Ligamentum falciforme hepatis</text>
 <path stroke="black">
 448 624 m
 384 592 l
 384 592 l
 </path>
-<text matrix="1 0 0 1 0 -32" transformations="translations" pos="192 560" stroke="black" type="label" width="84.157" height="6.918" depth="0" valign="baseline">Common liver duct</text>
+<text matrix="1 0 0 1 1.3655 -26.538" transformations="translations" pos="192 560" stroke="black" type="minipage" width="79.727" height="16.425" depth="11.47" valign="baseline" size="Large">Common liver duct</text>
 <path stroke="black">
 277.412 533.086 m
 379.68 553.175 l
 </path>
-<text matrix="1 0 0 1 -7.91362 -57.2215" transformations="translations" pos="191.579 639.616" stroke="black" type="minipage" width="97.154" height="42.747" depth="37.84" valign="baseline">Bile Duct
-
-The bile ducts continuously increase in size and build a network in the liver and eventually unite to the common hepatic duct.</text>
+<text matrix="1 0 0 1 -11.0998 -48.1182" transformations="translations" pos="191.579 639.616" stroke="black" type="minipage" width="97.154" height="36.772" depth="31.86" valign="baseline">The bile ducts continuously increase in size and build a network in the liver and eventually unite to the common hepatic duct.</text>
 <path stroke="black">
 273.759 619.527 m
 311.501 579.959 l
 </path>
-<text matrix="1 0 0 1 402.377 267.846" transformations="translations" pos="82.0061 415.599" stroke="black" type="minipage" width="98.892" height="42.959" depth="38.07" valign="baseline">Liver vein
-
-The blood from the liver, depleted in oxygen, gets conducted back to the heart through the liver vein (hepatic vein).</text>
+<text matrix="1 0 0 1 401.012 258.218" transformations="translations" pos="82.0061 415.599" stroke="black" type="minipage" width="98.892" height="37.045" depth="32.14" valign="baseline">The blood from the liver, depleted in oxygen, gets conducted back to the heart through the liver vein (hepatic vein).</text>
 <path stroke="black">
 480.731 679.792 m
 396.725 646.92 l
 396.725 646.92 l
 </path>
-<text matrix="1 0 0 1 140.619 129.053" transformations="translations" pos="46.0904 326.723" stroke="black" type="minipage" width="148.657" height="12.891" depth="7.92" valign="baseline">This vein transports blood from the digestive organs to the liver.</text>
-<text transformations="translations" pos="192 416" stroke="black" type="minipage" width="150.429" height="11.924" depth="6.95" valign="baseline">The hepatic artery transports blood from the heart to the liver.</text>
+<text matrix="1 0 0 1 137.888 130.418" transformations="translations" pos="46.0904 326.723" stroke="black" type="minipage" width="148.657" height="12.891" depth="7.92" valign="baseline">This vein transports blood from the digestive organs to the liver.</text>
+<text matrix="1 0 0 1 -7.28266 1.82066" transformations="translations" pos="192 416" stroke="black" type="minipage" width="150.429" height="11.924" depth="6.95" valign="baseline">The hepatic artery transports blood from the heart to the liver.</text>
+<text matrix="1 0 0 1 -1.82066 -15.0205" transformations="translations" pos="484.118 730.398" stroke="black" type="label" width="56.197" height="9.963" depth="0" valign="baseline" size="Large">Liver vein</text>
+<text matrix="1 0 0 1 -0.455166 -12.7447" transformations="translations" pos="191.446 646.42" stroke="black" type="label" width="56.197" height="9.963" depth="0" valign="baseline" size="Large">Liver vein</text>
+<text matrix="1 0 0 1 -2.731 13.655" transformations="translations" pos="214.205 650.061" stroke="black" type="label" width="0" height="0" depth="0" valign="baseline" size="Huge"></text>
 </page>
 </ipe>
