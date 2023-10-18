@@ -13,6 +13,9 @@
 *.pdf
 *.ptc*
 *.toc
+*.nav
+*.out
+*.snm
 **/CVS
 *~
 *#
