@@ -8,6 +8,7 @@
 \usepackage{epigraph} % For quotes
 \usepackage[etex]{adjustbox}
 \usepackage{wrapfig}
+\usepackage{fancybox}
 \usepackage{mwe}
 \setlength\epigraphwidth{.4\textwidth}
 
@@ -25,6 +26,10 @@
 \usepackage{minitoc}
 \usepackage{enumitem}
 \raggedbottom
+
+\newenvironment{fminipage}%
+{\begin{Sbox}\begin{minipage}}%
+{\end{minipage}\end{Sbox}\fbox{\TheSbox}}
 
 \usepackage{subfiles} % Best loaded last in the preamble
 
