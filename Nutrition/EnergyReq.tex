@@ -60,8 +60,8 @@ based on reference values for height and weight is enough (by DACH 2000):
 
 \begin{table}[htb]
   \centering
-  \begin{tabular}{c|c c|c c}
-    \textbf{Age} & \textbf{Women} & & \textbf{Men} \\
+  \begin{tabular}{c c c c c}
+    \textbf{Age} & \multicolumn{2}{c}{\textbf{Women}} & \multicolumn{2}{c}{\textbf{Men}} \\
     years & kJ & kcal & kJ & kcal \\
     \hline
     15 -- 18 & 6113 & 1460 & 7620 & 1820 \\
@@ -96,7 +96,7 @@ $ Total PAL = \frac{PAL work + PAL free time + PAL sleep}{3}$
 
 \begin{table}[htb]
   \centering
-  \begin{tabular}{c|l|l}
+  \begin{tabular}{cll}
     \textbf{PAL value} & \textbf{Activity} & \textbf{Example} \\
     \hline
     0.95 & Sleeping \\
@@ -117,5 +117,78 @@ $ Total PAL = \frac{PAL work + PAL free time + PAL sleep}{3}$
   \caption{PAL values for work activity levels and free time behaviors, according to DACH 2000}
 \end{table}
 
+Example calculation PAL:
+For a craftsman, who spends his free time typically sitting and does 3-5 times a week sport during 30-60 min (jogging or weight lifting).
 
+  \begin{tabular}{lll}
+    \textbf{Activity} & \textbf{hrs} & \textbf{PAL--value} \\
+    \hline
+    Craftsman & 8 & 1.9 \\
+    Free time activity & 8 & 1.4 \\
+    Sleep & 8 & 0.95 \\
+    \hline
+                      & & 4.25/3 = 1.4 \\
+    Regular sports activity & & + 0.3 \\
+    \hline
+    \textbf{Average PAL} & & \textbf{1.7}\\
+  \end{tabular}
+  \vspace{1mm}
+
+  \subsection{Total Metabolic Rate (Total Energy Turnover)}
+
+  The total metabolic rate, the total energy turnover is calculated by multiplying the basal metabolic rate with the corresponding PAL value.
+
+  \begin{center}
+\begin{fminipage}{9cm}
+  Total metabolic rate = basal metabolic rate * PAL value
+  \end{fminipage}
+\end{center}
+
+
+\vspace{2mm}
+\noindent  Example calculation total metabolic rate:
+  35 year old handicraft worker doing sports in his free time:
+
+  \begin{tabular}{ll}
+    Basal metabolic rate (see example) & 1712 kcal/24h \\
+    PAL (see example) & 1.7 \\
+    Total metabolic rate [kcal/24 hrs] & 1712*1.7 = 2910 kcal/24hrs
+  \end{tabular}
+
+\vspace{2mm}
+
+\begin{table}[htb]
+  \begin{center}
+  \begin{tabular}{c|ccc|ccc}
+    \textbf{Age} & \multicolumn{3}{c}{\textbf{Women}} & \multicolumn{3}{c}{\textbf{Men}} \\
+    years & PAL 1.4 & PAL 1.6 & PAL 1.8 & PAL 1.4 & PAL 1.6 & PAL 1.8 \\
+    \hline
+    15 -- 18 & 2000 & 2300 & 2600 & 2500 & 2900 & 3300 \\
+    19 -- 24 & 1900 & 2200 & 2500 & 2500 & 2900 & 3300 \\
+    25 -- 50 & 1900 & 2100 & 2400 & 2400 & 2800 & 3100 \\
+    51 -- 64 & 1800 & 2000 & 2300 & 2200 & 2500 & 2800 \\
+    over 64 & 1600 & 1800 & 2100 & 2000 & 2300 & 2500 \\
+  \end{tabular}
+  \end{center}
+%  \vspace{1mm}
+
+  \begin{small}
+  \noindent With additional sport activity or exhausting free time activities of about 30-60~min, 4-5 times a week, the PAL value increases by 0.3 units.
+
+  \vspace{1mm}
+  \noindent Pregnant women receive an additional 255 kcal/day, independent of their PAL value.
+
+  \vspace{1mm}
+  \noindent Women who are breast--feeding, receive an addition independently of their PAL value:
+
+  \begin{tabular}{ll}
+    635 kcal/day & up to the 5th month \\
+    525 kcal/day & after the 5th month while fully breast--feeding.\\
+    285 kcal/day & after the 5th month while partially breast--feeding.
+  \end{tabular}
+  \end{small}
+  \caption{DACH reference values for the average energy consumption in kcal/day.}
+\end{table}
+
+  
 \end{document}
