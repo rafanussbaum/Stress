@@ -15,7 +15,7 @@ all:
 	$(BUILDTEX)
 	$(DVIPDF)
 clean-all:
-	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.pdf *.toc *.out *~
+	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.pdf *.toc *.out *.ind *.lof *.lot *.maf *.mtc* *.ptc* *~
 
 clean:
 	rm -f *.log *.bak *.aux *.bbl *.blg *.idx *.toc *.out *~
