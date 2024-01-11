@@ -19,7 +19,7 @@ The total energy requirements\index{energy requirements} of humans per day can b
 \section{Basic Energy Turnover (Basal Metabolic Rate)}
 
 The basic calorie turnover\index{basal metabolic rate} is the energy that our body needs while being totally inactive, lying down, in order to
-stabilize the body temperature and to maintain the vital functions of respiration, circulation and metabolism for 24 hours.
+stabilize the body temperature and to maintain the vital functions of respiration, circulation and metabolism for \SI{24}{\hours}.
 The basic turnover depends on factors like for instance age, gender, stature, weight and height.
 Also the ratio between muscle mass and body fat plays a role.
 Muscles require more energy than fat tissue.
@@ -32,26 +32,27 @@ On the other side, stress, sickness and the intake of medication also influences
 
 The following formula, which takes into account some of the above mentioned factors has been published in the year 1918
 by \textit{A. Harris} and \textit{F. G. Benedict}.
-The so called ``Harris--Benedict--formula'' is (first in metric: cm and kg, then in the empirical system: lbs and in):
+The so called ``Harris--Benedict--formula'' is (first in metric: \unit{\centi\meter} and \unit{\kilo\gram},
+then in the empirical system: \unit{\lbs} and \unit{\in}):
 
 \noindent For men:\footnote{A revision from 1984 by {Roza} and {Shizgal} improved the accuracy and {Mifflin et al.}
  published 1990 an equation more predictive for modern lifestyles \cite{WikiCalorie}.}\\
-Basal metabolic rate   [kcal/24 h] \\
-= 66.47 + (13.7 * weight [kg]) + (5.0 * height [cm]) - (6.8 * age [yrs]) \\
-= 66.47 + (6.2 * weight [lbs]) + (12.7 * height [in]) - (6.8 * age [yrs])
+Basal metabolic rate   [\unit{\kcal/24 \hour}] \\
+= 66.47 + (13.7 * weight [\unit{\kg}]) + (5.0 * height [\unit{\cm}]) - (6.8 * age [\unit{\yrs}]) \\
+= 66.47 + (6.2 * weight [\unit{\lbs}]) + (12.7 * height [\unit{\in}]) - (6.8 * age [\unit{\yrs}])
 
 \vspace{3mm}
 
 \noindent For women:\\
-Basal metabolic rate  [kcal/24 h] \\
-= 655 + (9.6 * weight [kg]) + (1.8 * height [cm]) - (4.7 * age [yrs]) \\
-= 655 + (4.3 * weight [lbs]) + (4.7 * height [in]) - (4.7 * age [yrs])
+Basal metabolic rate  [\unit{\kcal/24 \hrs}] \\
+= 655 + (9.6 * weight [\unit{\kg}]) + (1.8 * height [\unit{\cm}]) - (4.7 * age [\unit{\yrs}]) \\
+= 655 + (4.3 * weight [\unit{\lbs}]) + (4.7 * height [\unit{\in}]) - (4.7 * age [\unit{\yrs}])
 
 \vspace{3mm}
 
 \noindent Example calculation for a basic calorie turnover(basal metabolic rate):\\
-A 35 years old man, 74 kg and 175 cm tall\\
-Basic calorie turnover = 66.47 + (13.7 * 74) + (5 * 175) - (6.8 * 35) = 1712.3 kcal/24h
+A 35 years old man, \SI{74}{\kg} and \SI{175}{\cm} tall\\
+Basic calorie turnover = 66.47 + (13.7 * 74) + (5 * 175) - (6.8 * 35) = \SI{1712.3}{\kcal/24\h}
 
 \vspace{3mm}
 
@@ -62,7 +63,7 @@ based on reference values for height and weight is enough (by DACH 2000):
   \centering
   \begin{tabular}{c c c c c}
     \textbf{Age} & \multicolumn{2}{c}{\textbf{Women}} & \multicolumn{2}{c}{\textbf{Men}} \\
-    years & kJ & kcal & kJ & kcal \\
+    years & \unit{\kJ} & \unit{\kcal} & \unit{\kJ} & \unit{\kcal} \\
     \hline
     15 -- 18 & 6113 & 1460 & 7620 & 1820 \\
     19 -- 24 & 5820 & 1390 & 7620 & 1820 \\
@@ -113,12 +114,14 @@ $ Total PAL = \frac{PAL work + PAL free time + PAL sleep}{3}$
   \end{tabular}
   \vspace{1mm}
   
-  \noindent With additional sport activity or exhausting free time activities of about 30-60~min, 4-5 times a week, the PAL value increases by 0.3 units
+  \noindent With additional sport activity or exhausting free time activities of about \qtyrange{30}{60}{\min},
+  4-5 times a week, the PAL value increases by 0.3 units
   \caption{PAL values for work activity levels and free time behaviors, according to DACH 2000}
 \end{table}
 
 Example calculation PAL:
-For a craftsman, who spends his free time typically sitting and does 3-5 times a week sport during 30-60 min (jogging or weight lifting).
+For a craftsman, who spends his free time typically sitting and does 3-5 times a week sport during
+\qtyrange{30}{60}{\min} (jogging or weight lifting).
 
   \begin{tabular}{lll}
     \textbf{Activity} & \textbf{hrs} & \textbf{PAL--value} \\
@@ -150,9 +153,9 @@ For a craftsman, who spends his free time typically sitting and does 3-5 times a
   35 year old handicraft worker doing sports in his free time:
 
   \begin{tabular}{ll}
-    Basal metabolic rate (see example) & 1712 kcal/24h \\
+    Basal metabolic rate (see example) & \SI{1712}{\kcal/24\h} \\
     PAL (see example) & 1.7 \\
-    Total metabolic rate [kcal/24 hrs] & 1712*1.7 = 2910 kcal/24hrs
+    Total metabolic rate [\unit{\kcal/24 \h}] & 1712*1.7 = \SI{2910}{\kcal/24\h}
   \end{tabular}
 
 \vspace{2mm}
@@ -173,21 +176,21 @@ For a craftsman, who spends his free time typically sitting and does 3-5 times a
 %  \vspace{1mm}
 
   \begin{small}
-  \noindent With additional sport activity or exhausting free time activities of about 30-60~min, 4-5 times a week, the PAL value increases by 0.3 units.
+  \noindent With additional sport activity or exhausting free time activities of about \qtyrange{30}{60}{\min}, 4--5 times a week, the PAL value increases by 0.3 units.
 
   \vspace{1mm}
-  \noindent Pregnant women receive an additional 255 kcal/day, independent of their PAL value.
+  \noindent Pregnant women receive an additional \qty{255}{\kcal/\day}, independent of their PAL value.
 
   \vspace{1mm}
   \noindent Women who are breast--feeding, receive an addition independently of their PAL value:
 
   \begin{tabular}{ll}
-    635 kcal/day & up to the 5th month \\
-    525 kcal/day & after the 5th month while fully breast--feeding.\\
-    285 kcal/day & after the 5th month while partially breast--feeding.
+    \qty{635}{\kcal/\day} & up to the 5th month \\
+    \qty{525}{\kcal/\day} & after the 5th month while fully breast--feeding.\\
+    \qty{285}{\kcal/\day} & after the 5th month while partially breast--feeding.
   \end{tabular}
   \end{small}
-  \caption{DACH reference values for the average energy consumption in kcal/day.}
+  \caption{DACH reference values for the average energy consumption in \unit{\kcal/\day}.}
 \end{table}
 
   

@@ -14,13 +14,13 @@ For  a long time, the research of a French surgeon Broca (1824-1880) was the bas
 
 \noindent
 \begin{tabular}{lll}
-  Normal weight & = Height in cm &-- 100, ex: 175 cm -- 100 = 75 kg \\
+  Normal weight & = Height in \unit{\cm} &-- 100, ex: \SI{175}{\cm} -- 100 = \SI{75}{\kg} \\
   Ideal weight for men & = Normal weight &-- 10\% \\
   Ideal weight for women & = Normal weight &-- 5\% \\
   Overweight & = Normal weight &+ 10\% \\
 \end{tabular}
 
-The big disadvantage of the Broca formula is the fact, that it is only applicable to people with a height between 1.60 m and 1.80 m (5ft3 -- 5ft11).
+The big disadvantage of the Broca formula is the fact, that it is only applicable to people with a height between \SI{1.60}{\m} and \SI{1.80}{\m} (5ft3 -- 5ft11).
 
 \section{Body Mass Index or BMI}
 
@@ -32,8 +32,8 @@ The formula to calculate the BMI with an example:
 \vspace{2mm}
 \begin{center}
   \begin{fminipage}{10cm}
-  $BMI = \frac{Body weight [kg]}{Height [m]^2} = 703 * \frac{Body weight [lbs]}{Height [in]}
-  = \frac{75 kg}{(1.75 m)^2} = 24.5$
+  $BMI = \frac{Body weight [\unit{\kg}]}{Height [\unit{\m}]^2} = 703 * \frac{Body weight [\unit{\lbs}]}{Height [\unit{\in}]}
+  = \frac{\SI{75}{\kg}}{(\SI{1.75}{\m})^2} = 24.5$
   \end{fminipage}
 \end{center}
 
@@ -42,7 +42,7 @@ With the help of the calculated BMI value and the following table, it can be det
 \begin{table}[htb!]
   \centering
   \begin{tabular}{lll}
-    \textbf{BMI [kg/m$^2$]} & \textbf{Classification} & \textbf{Health risk} \\
+    \textbf{BMI [\unit{\kg/\m^2}]} & \textbf{Classification} & \textbf{Health risk} \\
     \hline
     $<$ 18.5 & Underweight & low \\
     18.5 -- 24.9 & Normal weight & normal \\
@@ -71,7 +71,9 @@ In order to be measured, the patient has to be standing up:
 
 \begin{center}
 \begin{fminipage}{8cm}
-$WHR = \frac{circumference\ waist [cm/in]\footnote{As the WHR is a ratio of measures, it doesn't matter in which unit the circumferences are measured, as long as it's in the same units for both of them.}}{circumference\ hip [cm/in]} = \frac{88\ cm}{103\ cm} = 0.85$
+  $WHR = \frac{circumference\ waist [\unit{\cm/\in}]\footnote{As the WHR is a ratio of measures,
+    it doesn't matter in which unit the circumferences are measured, as long as it's in the same units for both of them.}}{circumference\ hip
+    [\unit{\cm/\in}]} = \frac{\SI{88}{\cm}}{\SI{103}{\cm}} = 0.85$
 \end{fminipage}
 \end{center}
 
@@ -96,10 +98,14 @@ Gauging the health risk based on the waist circumference.
     \multicolumn{4}{c}{\textbf{Waist circumference}} & \textbf{Health risk} \\
     \textbf{Men} & & \textbf{Women} \\
     \hline
-    $\leq$ 94 cm & (37 in) & $\leq$ 80 cm & (31\sfrac{1}{2}\ in) & normal \\
-    95 -- 102 cm & (37 -- 40\sfrac{1}{4}\ in) & 80 --88 cm &
-                  (31\sfrac{1}{2}\ -- 34\sfrac{1}{2}\ in) & elevated \\
-    $>$ 102 cm & (40\sfrac{1}{4}\ in) & $>$ 88 cm  & (34\sfrac{1}{2}\ in) & strongly elevated \\
+    $\leq$ \SI{94}{\cm} & (\SI{37}{\in}) & $\leq$ \SI{80}{\cm} & 
+    (\SI[parse-numbers=false]{\text{\ensuremath{31\sfrac{1}{2}}}}{\in}) & normal \\
+    \qtyrange{95}{102}{\cm} & \SIrange[parse-numbers=false]{37}{\text{\ensuremath{40\sfrac{1}{4}}}}{\in}
+    & \qtyrange{80}{88}{\cm} &
+    (\SIrange[parse-numbers=false]{\text{\ensuremath{31\sfrac{1}{2}}}}{\text{\ensuremath{34\sfrac{1}{2}}}}{\in})
+    & elevated \\
+    $>$ \SI{102}{\cm} & (\SI[parse-numbers=false]{\text{\ensuremath{40\sfrac{1}{4}}}}{\in}) & $>$ \SI{88}{\cm}
+      & (\SI[parse-numbers=false]{\text{\ensuremath{34\sfrac{1}{2}}}}{\in}) & strongly elevated \\
   \end{tabular}
 \end{table}
 
@@ -112,7 +118,8 @@ and the more the fat deposits are distributed around the waist, the bigger the a
   \textbf{Profile Normal Weight}
   \begin{itemize}
   \item The Body--Mass--Index BMI should be between 18.5 -- 24.9 and with increasing age more on the upper end of this interval.
-  \item The waist circumference is a god measure of the fat distribution in the body. It should be not more than 94 cm (37 in) for men and not more than 80 cm (31\textonehalf\ in) for women.
+  \item The waist circumference is a god measure of the fat distribution in the body. It should be not more than \SI{94}{\cm} (\SI{37}{\in}) for men
+    and not more than \SI{80}{\cm} (\SI[parse-numbers=false]{\text{\ensuremath{31\sfrac{1}{2}}}}{\in}) for women.
   \item Overweight most often doesn't only indicate wrong nutrition, but also a lack of movement.
     \item Determining the weight once  a month in the morning on empty stomach allows a timely correction of the behavior in terms of food and movement. 
   \end{itemize}
