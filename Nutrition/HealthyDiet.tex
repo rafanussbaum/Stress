@@ -40,9 +40,9 @@ It differs from the regular mixed diet by consciously choosing foods which:
   \begin{tabular}{ll}
     \textbf{Nutrient/Food component} & \textbf{Target area (per day)} \\
     \hline
-    Energy & 7.4--10.6 MJ respectively 1800--2500 kcal \\
+    Energy & \SIrange{7.4}{10.6}{\mega\joule} respectively \SIrange{1800}{2500}{\kcal} \\
     Carbohydrates & about 50\% of energy$^{***}$ \\
-    Fibers & about \SI{30}{\gram}. (1~oz.)$^{***}$ \\
+    Fibers & about \SI{30}{\gram}. (\SI{1}{\oz})$^{***}$ \\
     Sucrose (table sugar) & moderate use (about 10\% of the energy) \\
     Proteins & 10--20\% of the energy$^{**}$ \\
     Fats & about 30\% of the energy \\
@@ -56,7 +56,7 @@ It differs from the regular mixed diet by consciously choosing foods which:
     Bulk and trace elements & 100\% of the DACH reference values\\
                                      & for 19--65 year old people \\
     Table salt & \SI{6}{\gram} \\
-    Water intake over drinks and foods & 250--\SI{270}{\milli\liter}/MJ respectively 1.0 - \SI{1.1}{\milli\liter}/kcal \\
+    Water intake over drinks and foods & \SIrange{250}{270}{\milli\liter/\mega\joule} respectively \SIrange{1.0}{1.1}{\milli\liter/\kcal} \\
     & (inclusive oxidative water) \\
     \hline
     \multicolumn{2}{l}{\footnotesize{* PAL = physical activity level}}\\
@@ -125,15 +125,20 @@ Abstain for smoking and other recreational drugs and the right behavior with str
 
 \subsubsection{1$^{st}$ (lowest) level --- Drinks: plenty and through the day}
 
-Per day 1--2 Liter (\sfrac{1}{4} -- \sfrac{1}{2} ga, 4\sfrac{1}{4} -- 8\sfrac{1}{2} cups) of fluids, preferably as unsweetened drinks, like water, mineral water, herbal or fruit tea.
+Per day \SIrange{1}{2}{\liter}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{\sfrac{1}{4}}}}{\text{\ensuremath{\sfrac{1}{2}}}}{\ga},
+\SIrange[parse-numbers=false]{\text{\ensuremath{4\sfrac{1}{4}}}}{\text{\ensuremath{8\sfrac{1}{2}}}}{\cup})
+of fluids, preferably as unsweetened drinks, like water, mineral water, herbal or fruit tea.
 
 \noindent Drinks with caffeine should be consumed in a modest amount.
 
 \subsubsection{2$^{nd}$ level --- Vegetables and Fruits: 5 per day in different colors}
 
-3 portions of vegetables per day, thereof at least one raw (1 portion = at least \SI{120}{\gram} (4\sfrac{1}{4} oz) of vegetables as side dish, salad or soup).
+3 portions of vegetables per day, thereof at least one raw (1 portion = at least \SI{120}{\gram} (\SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{1}{4}}}}{\oz})
+of vegetables as side dish, salad or soup).
 
-\noindent 2 portions of fruits a day (1 portion = at least  \SI{120}{\gram} (4\sfrac{1}{4} oz) = 1 ``hand full'').
+\noindent 2 portions of fruits a day (1 portion = at least  \SI{120}{\gram}
+(\SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{1}{4}}}}{\oz}) = 1 ``hand full'').
 
 \noindent One vegetable or fruit portion per day can be substituted with an unsweetened fruit or vegetable juice.
 
@@ -141,32 +146,52 @@ Per day 1--2 Liter (\sfrac{1}{4} -- \sfrac{1}{2} ga, 4\sfrac{1}{4} -- 8\sfrac{1}
 
 With every main meal 1 starchy garnish, therefore two preferably a whole grain product.
 
-(1 portion = 75 -- \SI{125}{\gram} (2\sfrac{1}{2} -- 4\sfrac{1}{2} oz.) bread,
-60 -- \SI{100}{\gram} (2\sfrac{1}{8} -- 3\sfrac{1}{2} oz.) legumes [dry weight] like lentils or garbanzo beans,
-180 -- \SI{300}{\gram} (6\sfrac{3}{8} -- 10\sfrac{1}{2} oz.) potatoes
-or  45 -- \SI{75}{\gram} (1\sfrac{5}{8} -- 2\sfrac{5}{8}) cereals, pasta, corn, rice, or other grains [dry weight])
+(1 portion = \SIrange{75}{125}{\gram}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{2\sfrac{1}{2}}}}{\text{\ensuremath{4\sfrac{1}{2}}}}{\oz}) bread,
+\SIrange{60}{100}{\gram}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{2\sfrac{1}{8}}}}{\text{\ensuremath{3\sfrac{1}{2}}}}{\oz})
+legumes [dry weight] like lentils or garbanzo beans,
+\SIrange{180}{300}{\gram}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{6\sfrac{3}{8}}}}{\text{\ensuremath{10\sfrac{1}{2}}}}{\oz}) potatoes
+or \SIrange{45}{75}{\gram}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{1\sfrac{5}{8}}}}{\text{\ensuremath{2\sfrac{5}{8}}}}{\oz})
+cereals, pasta, corn, rice, or other grains [dry weight])
 
 \subsubsection{4$^{th}$ level --- milk, milk products, meat, fish and eggs: Daily in a big enough quantity}
 
 Per day, alternating between 1 portion meat, fish, eggs, cheese or other protein sources like tofu or other vegetarian options
-(1 portion = 100 -- \SI{120}{\gram} (3\sfrac{1}{2} -- 4\sfrac{1}{4} oz.) meat or fish [dry weight],
-2--3 eggs, \SI{200}{\gram} (7 oz.) cream cheese or cottage cheese,
-\SI{60}{\gram} (2\sfrac{1}{8} oz.) hard cheese
-or 100--\SI{120}{\gram} (3\sfrac{1}{2} -- 4\sfrac{1}{4} oz.) tofu or other vegetarian meat replacement).
+(1 portion = \SIrange{100}{120}{\gram}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{2}}}}{\text{\ensuremath{4\sfrac{1}{4}}}}{\oz}) meat or fish [dry weight],
+2--3 eggs, \SI{200}{\gram} (\SI{7}{\oz}) cream cheese or cottage cheese,
+\SI{60}{\gram} (\SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{1}{8}}}}{\oz}) hard cheese
+or \SIrange{80}{120}{\gram}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{2}}}}{\text{\ensuremath{4\sfrac{1}{4}}}}{\oz})
+tofu or other vegetarian meat replacement).
 
 \noindent Additionally, 3 portions milk or milk products per day, preferably versions reduced in fats
-(1 portion = \SI{2}{\deci\liter} (\sfrac{7}{8} cup), 150 -- \SI{180}{\gram} (5\sfrac{1}{4} -- 6\sfrac{3}{8} oz.) yogurt
-or \SI{200}{\gram} (7 oz.) curd cheese or cottage cheese or 30--\SI{60}{\gram} (1--2\sfrac{1}{8} oz.) cheese).
+(1 portion = \SI{2}{\deci\liter} (\SI[parse-numbers=false]{\text{\ensuremath{\sfrac{7}{8}}}}{\cup}),
+\SIrange{150}{180}{\gram}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{5\sfrac{1}{4}}}}{\text{\ensuremath{6\sfrac{3}{8}}}}{\oz}) yogurt
+or \SI{200}{\gram} \SI{7}{\oz}) curd cheese or cottage cheese or \SIrange{30}{60}{\gram}
+(\SIrange[parse-numbers=false]{1}{\text{\ensuremath{2\sfrac{1}{8}}}}{\oz}) cheese).
 
 \subsubsection{5$^{th}$ level --- oils, fats and nuts: daily in moderation}
 
-2--3 tea spoons (10--\SI{15}{\gram}, \sfrac{3}{8} -- \sfrac{1}{2} oz.) high--grade plant oil like canola or olive oil for the cold food (ie. salad dressing).
+\SIrange{2}{3}{tea\ spoons} (\SIrange{10}{15}{\gram},
+\SIrange[parse-numbers=false]{\text{\ensuremath{\sfrac{3}{8}}}}{\text{\ensuremath{\sfrac{1}{2}}}}{\oz})
+high--grade plant oil like canola or olive oil for the cold food (ie. salad dressing).
 
-\noindent  2--3 tea spoons (10--\SI{15}{\gram}, \sfrac{3}{8} -- \sfrac{1}{2} oz.)  plant oil to heat food up with (frying): olive oil is recommended.
+\noindent  \SIrange{2}{3}{tea spoons}
+(\SIrange{10}{15}{\gram},
+\SIrange[parse-numbers=false]{\text{\ensuremath{\sfrac{3}{8}}}}{\text{\ensuremath{\sfrac{1}{2}}}}{\oz})
+plant oil to heat food up with (frying): olive oil is recommended.
 
-\noindent When desired, 2 tea spoons (\SI{10}{\gram}, \sfrac{3}{8} oz.)  spreadable fats (butter or margarine from high--grade oils) to spread on bread.
+\noindent When desired, \SI{2}{tea\ spoons}
+(\SI{10}{\gram}, \SI[parse-numbers=false]{\text{\ensuremath{\sfrac{3}{8}}}}{\oz})
+spreadable fats (butter or margarine from high--grade oils) to spread on bread.
 
-\noindent It is recommended to eat 1 portion of nuts a day (1 portion = 20--\SI{30}{\gram} (\sfrac{3}{4} -- 1 oz.) almonds, hazel or walnuts, \ldots).
+\noindent It is recommended to eat 1 portion of nuts a day (1 portion = \SIrange{20}{30}{\gram}
+(\SIrange[parse-numbers=false]{\text{\ensuremath{\sfrac{3}{4}}}}{1}{\oz}) almonds, hazel or walnuts, \ldots).
 
 
 \subsubsection{6$^{th}$ level --- sweats, salty snacks and drinks rich in energy: enjoy in moderation}

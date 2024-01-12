@@ -2,20 +2,94 @@
 \graphicspath{{\subfix{../images/}}}
 \begin{document}
 
-\begin{table}[p!]
-  \centering
-  \begin{tabular}{rl|rl|rl}
-    \SI{30}{\gram} (1 oz.) & Algae &  \SI{200}{\gram} (7 oz.) & Soy yogurt \\
-    \SI{60}{\gram} (2\sfrac{1}{8} oz.) & Soy beans &  \SI{330}{\milli\liter} (1\sfrac{3}{8} cups) & Soy milk \\
-    \SI{120}{\gram} (4\sfrac{1}{4} oz.) & Shiitake mushrooms &  1.5 piece & Chicken eggs \\
-    \hline
-    \multicolumn{2}{l}{\textbf{Meat, poultry, sausages}} &     \multicolumn{2}{l}{\textbf{Milk products}} &     \multicolumn{2}{l}{\textbf{Nuts and seeds}} \\
-    \hline
-    \SI{80}{\gram} (2\sfrac{7}{8} oz.) & Chicken breasts (skinless) &  \SI{250}{\milli\liter} (1 cup) & Kefir &   \SI{35}{\gram} (1\sfrac{1}{4} oz.) & Peanuts  \\
-        \SI{80}{\gram} (2\sfrac{7}{8} oz.) & Turkey breasts  &  \SI{250}{\milli\liter} (1 cup) & Soured milk &   \SI{40}{\gram} (1\sfrac{3}{8} oz.) & Linen seeds  \\
+% \SI[parse-numbers=false]{\text{\ensuremath{
 
-  \end{tabular}
-  \caption{\SI{20}{\gram} (3/4 oz.) proteins is contained in...}
-\end{table}
+\thispagestyle{empty}
+
+\begin{sidewaystable}[p!]
+  \caption{\SI{20}{\gram} (\SI[parse-numbers=false]{\text{\ensuremath{\sfrac{3}{4}}}}{\oz}) proteins is contained in...}
+  \centering
+  \begin{tabular}{rrl|rrl|rrl}
+    \toprule
+    \SI{30}{\gram} & \SI{1}{\oz} & Algae &  \SI{200}{\gram} & \SI{7}{oz} & Soy yogurt \\
+    \SI{60}{\gram} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{1}{8}}}}{\oz} & Soy beans
+    &  \SI{330}{\milli\liter} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{3}{8}}}}{\cup} & Soy milk \\
+    \SI{120}{\gram} & \SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{1}{4}}}}{\oz} & Shiitake mushrooms &  \multicolumn{2}{c}{1.5 piece} & Chicken eggs \\
+    \hline
+    \multicolumn{3}{l}{\textbf{Meat, poultry, sausages}} &     \multicolumn{3}{l}{\textbf{Milk products}} &     \multicolumn{3}{l}{\textbf{Nuts and seeds}} \\
+    \hline
+    \SI{80}{\gram} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{7}{8}}}}{\oz} & Chicken breasts, skinless &
+    \SI{250}{\milli\liter} & \SI{1}{\cup} & Kefir &   \SI{35}{\gram} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{1}{4}}}}{\oz} & Peanuts  \\
+    \SI{80}{\gram} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{7}{8}}}}{\oz} &
+    Turkey breasts  &  \SI{250}{\milli\liter}
+    & \SI{1}{\cup} & Soured milk &   \SI{40}{\gram} &
+    \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{3}{8}}}}{\oz} & Linen seeds  \\
+    \SI{90}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Lean lamb &
+    \SI{300}{\mL} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{1}{4}}}}{\cup} & Butter milk &
+    \SI{50}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{3}{4}}}}{\oz} & Almonds \\
+    \SI{90}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Roast saddle of venison &
+    \SI{300}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{10\sfrac{1}{2}}}}{\oz} & Yoghurt &
+    \SI{45}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{5}{8}}}}{\oz} & Sun flower seeds \\
+    \SI{90}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Porc filet &
+    \SI{25}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{\sfrac{7}{8}}}}{\oz} & Parmeggiano &
+    \SI{50}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{3}{4}}}}{\oz} & Pistacchio \\
+    \SI{95}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Rabbit meat &
+    \SI{37}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{\sfrac{7}{8}}}}{\oz} & Romadur cheese (20 \% fat) &
+    \SI{55}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{7}{8}}}}{\oz} & Sesame seeds \\
+    \SI{100}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Veal filet &
+    \SI{38}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{\sfrac{7}{8}}}}{\oz} & Deli cheese 30 \% fat &
+    \SI{60}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{1}{8}}}}{\oz} & Cashew \\
+   \SI{100}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Beef tenderloin &
+    \SI{50}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{3}{4}}}}{\oz} & Mozzarella \\
+   \SI{120}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{1}{4}}}}{\oz} & Ham without fat rind &
+    \SI{50}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{3}{4}}}}{\oz} & Roquefort cheese \\
+   \SI{123}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{1}{4}}}}{\oz} & Lean poultry deli meat &
+    \SI{60}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{1}{8}}}}{\oz} & Feta (40\% fat) \\
+   & & &
+    \SI{75}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{5}{8}}}}{\oz} & Lean curd cheese \\
+   & & &
+    \SI{75}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{5}{8}}}}{\oz} & Cream cheese (20\% fat) \\
+    \midrule
+    \multicolumn{3}{l}{\textbf{Fish}} &     \multicolumn{3}{l}{\textbf{Grains}} &     \multicolumn{3}{l}{\textbf{Legumes, fruit and vegetables}} \\
+    \hline
+    \SI{80}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{7}{8}}}}{\oz} & Smoked salmon &
+    \SI{60}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{1}{8}}}}{\oz} & Quinoa &
+    \SI{50}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{3}{4}}}}{\oz} & Dried beans \\
+    \SI{100}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Halibut &
+    \SI{65}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{1}{4}}}}{\oz} & Whole wheat pasta &
+    \SI{50}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{1\sfrac{3}{4}}}}{\oz} & Lentils \\
+    
+    \SI{100}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Salmon &
+    \SI{75}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{5}{8}}}}{\oz} & Amaranth &
+    \SI{125}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{3}{8}}}}{\oz} & Tofu \\
+    
+    \SI{100}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Sardines &
+    \SI{75}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{5}{8}}}}{\oz} & Wild rice &
+    \SI{175}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{6\sfrac{1}{8}}}}{\oz} & Fresh green peas \\
+    
+    \SI{100}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Thuna &
+    \SI{85}{\g} & \SI[parse-numbers=false]{3}{\oz} & Durum wheat pasta &
+    \SI{200}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{7}}}{\oz} & Brussel sprouts, \\
+    &&&&&&&& green cabbage \\
+    
+    \SI{110}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{7}{8}}}}{\oz} & Shrimps &
+    \SI{80}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{2\sfrac{7}{8}}}}{\oz} & Oats &
+    \SI{500}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{17\sfrac{1}{2}}}}{\oz} & Potatoes \\
+    
+    \SI{110}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{7}{8}}}}{\oz} & Makerels &
+    \SI{90}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Whole wheat flour \\
+
+    \SI{120}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{1}{4}}}}{\oz} & Flounder, codfish, lobster,&
+
+    \SI{100}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{3\sfrac{1}{8}}}}{\oz} & Crispbread &
+    \multicolumn{3}{l}{Fruits and vegetables also contain} \\
+        & & sole, turbot  or herring \\
+    \SI{125}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{3}{8}}}}{\oz} & Lobster &
+    \SI{130}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{4\sfrac{1}{2}}}}{\oz} & Whole meal bread &
+    \multicolumn{3}{l}{proteins, but not that much} \\
+
+   \SI{220}{\g} & \SI[parse-numbers=false]{\text{\ensuremath{7\sfrac{3}{4}}}}{\oz} & Oysters \\    
+      \end{tabular}
+\end{sidewaystable}
 
 \end{document}
