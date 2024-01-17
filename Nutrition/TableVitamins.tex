@@ -1,0 +1,26 @@
+\documentclass[../main.tex]{subfiles}
+\graphicspath{{\subfix{../images/}}}
+\begin{document}
+\clearpage
+\thispagestyle{empty}
+% \SI[parse-numbers=false]{\text{\ensuremath{
+
+
+\begin{sidewaystable}[p!]
+  \caption{Table Vitamins}
+  \centering
+  \begin{tabularx}{\textwidth}{p{2.5cm}p{3cm}p{2.5cm}p{3cm}p{3cm}p{1.5cm}}
+    \textbf{Name} & \textbf{Signification} & \textbf{Deficiency Syndrome} & \textbf{Contained in} & \textbf{Solubility} & \makecell{\textbf{Daily Requirement} \\ \textbf{(EU-RDA):}} \\
+    \hline
+    \makecell[{p{2.5cm}}t]{\textbf{Vitamin A} \\ (Retinol)\\  Pro--vitamin A (Carotene) will be metabolized into vitamin A in the organism} &
+    Important for the eyes, generation of cells, protection of free radicals, body's defenses and procreation. &
+    {Night blindness, eye damage} &
+    {Butter, liver, and as pro--vitamin A in carrots, red bell pepper, tomatoes and spinach.} &
+    Fat soluble &
+    \makecell{\SI{0,8}{\mg} \\
+      (\SI{1}{\mg} = 3300 IE) \\ \\
+      Overdosing can be harmfull!}\\
+  \end{tabularx}
+  \end{sidewaystable}
+
+\end{document}

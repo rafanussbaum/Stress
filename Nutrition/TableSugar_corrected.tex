@@ -1,0 +1,57 @@
+\documentclass[../main.tex]{subfiles}
+\graphicspath{{\subfix{../images/}}}
+\begin{document}
+
+\begin{table}[hb!]
+  \centering
+  \begin{tabularx}{\linewidth}{|p{3cm}|p{2.5cm}|p{3cm}|p{2.5cm}|}
+    \toprule
+    \textbf{Type of sugar} & \textbf{Examples} & \textbf{Properties} & \textbf{Source} \\
+    \midrule
+    \makecell[{p{3cm}}]{Monosaccharide \\     (simple sugars) }  &
+    \makecell[{p{3cm}}]{Glucose \\ (grape sugar)}      &
+    \makecell[{p{3cm}}]{\tabitem easily soluble \\ \tabitem tastes sweet \\ \tabitem get very quickly absorbed  into  the blood stream }   &
+    fruits, vegetables \\ 
+  \cmidrule(rl){2-2} \cmidrule(rl){4-4}
+  & \makecell[{p{3cm}}]{Fructose \\ (fruit sugar)}       &     & fruits, honey \\
+  \cmidrule(rl){2-2} \cmidrule(rl){4-4}  &
+  \makecell[{p{3cm}}]{Galactose \\ (milk sugar)} &    & milk \\
+    [.5\normalbaselineskip]
+           % This is the first part of the table, I worked by manually separating the long text
+           % But is has the extra spaces where the cmidruler goes in the other cells
+    \hline
+    
+    \makecell[{p{3cm}}]{Disaccharide \\ (double sugars)}   &
+    \makecell[{p{3cm}}]{Sacharose \\ (household sugar)} &
+    \makecell[{p{3cm}}]{\tabitem well soluble \\ \tabitem taste slightly sweet \\ \tabitem get quickly absorbed  into  the blood } &
+    sugar cane, sugar beets, rock candy \\
+      \cmidrule(rl){2-2} \cmidrule(rl){4-4} %test here
+      
+        & \makecell[{p{3cm}}]{Maltose \\(malt sugar)} & & \makecell[{p{3cm}}]{ barley \\ beer\\ malt extract } \\
+            \cmidrule(rl){2-2} \cmidrule(rl){4-4}
+            & \makecell[{p{3cm}}]{Lactose \\ (milk sugar)} & & \makecell[{p{3cm}}]{milk \\ milk products} \\[.5\normalbaselineskip]
+            % The second part, 
+            \hline
+            
+            \makecell[{p{3cm}}]{Polysaccharide \\ (multiple sugars)} &
+            \makecell[{p{3cm}}]{Amylose \\ amylopectin \\ (starch)} \\
+
+    & \makecell[{p{3cm}}]{\tabitem have to be first cleaved \\ \tabitem don't taste sweet \\ \tabitem get slowly absorbed into  the blood stream}
+    & \makecell[{p{3cm}}]{grains, potatoes, legumes} \\
+        \cmidrule(rl){2-2} \cmidrule(rl){4-4}
+        & \makecell[{p{3cm}}]{Glycogen \\(storage carbohydrate)} &
+        & \makecell[{p{3cm}}]{liver, muscle} \\[.5\normalbaselineskip]
+            \cmidrule(rl){2-4}
+    & \makecell[{p{3cm}}]{Cellolose \\ (fibers*)}
+    & \makecell[{p{3cm}}]{\tabitem are indigestible \\ \tabitem absorb poisonous  compounds \\ \tabitem increase volume  of stool}
+    & \makecell[{p{3cm}}]{all plant based\\foods} \\
+    % The last part, this is how I worked originally, with makecell and multirow, but the allignement
+    % is off, plus difficulties with text overlapping stuff
+    \bottomrule
+    \multicolumn{4}{l}{\footnotesize{*see chapter fibers, \ref{chap:fibers}, p. \pageref{chap:fibers}}}
+  \end{tabularx}
+  \caption[Types of sugar and sources]{The types of sugars and foods sources}
+\end{table}
+
+
+\end{document}
