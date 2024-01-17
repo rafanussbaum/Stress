@@ -4,40 +4,47 @@
 
 \begin{table}[hb!]
   \centering
-  \begin{tabularx}{\linewidth}{|l|l|p{3cm}|l|}
+  \begin{tabularx}{\linewidth}{|p{3cm}|p{2.3cm}|p{3cm}|p{2.5cm}|}
     \toprule
     \textbf{Type of sugar} & \textbf{Examples} & \textbf{Properties} & \textbf{Source} \\
     \midrule
-    Monosaccharide  &  Glucose       & \tabitem easily soluble   & fruits\\ 
-    (simple sugars) &  (grape sugar) &  \tabitem taste sweet     & vegetables \\
+    \makecell[{p{3cm}}t]{Monosaccharide \\     (simple sugars) }  & 
+    \makecell[{p{2.3cm}}t]{Glucose \\ (grape sugar)}      &
+  \multirow{3}{*}{\makecell[{p{3cm}}t]{\tabitem easily soluble \\ \tabitem tastes sweet \\ \tabitem get very quickly absorbed  into  the blood stream }}   &
+    fruits, vegetables \\ 
   \cmidrule(rl){2-2} \cmidrule(rl){4-4}
-  & Fructose        &  \tabitem get very quickly   & fruits \\
-                      & (fruit sugar)   & absorbed  into   &  honey \\
-           \cmidrule(rl){2-2} \cmidrule(rl){4-4} %OK here
-           & Galactose & the blood & milk \\
-           & (milk sugar) & & \\ [.5\normalbaselineskip]
+  & \makecell[{p{2.3cm}}t]{Fructose \\ (fruit sugar)}       &     & fruits, honey \\
+  \cmidrule(rl){2-2} \cmidrule(rl){4-4}  &
+  \makecell[{p{2.3cm}}t]{Galactose \\ (milk sugar)} &    & milk \\
+    [.5\normalbaselineskip]
            % This is the first part of the table, I worked by manually separating the long text
            % But is has the extra spaces where the cmidruler goes in the other cells
-      \hline
-      Disaccharide    & Sacharose &  \tabitem well soluble &  sugar cane\\
-      (double sugars) & (household sugar)  & \tabitem taste slightly sweet &  sugar beets\\
-      &    & \tabitem get quickly absorbed  into  the blood& rock candy \\ % Long text uses a lot of vertical space
+    \hline
+    
+    \makecell[{p{3cm}}t]{Disaccharide \\ (double sugars)}   &
+    \makecell[{p{2.3cm}}t]{Sacharose \\ (household sugar)} &
+    \multirow{3}{*}{\makecell[{p{3cm}}t]{\tabitem well soluble \\ \tabitem taste slightly sweet \\ \tabitem get quickly absorbed  into  the blood }} &
+    sugar cane, sugar beets, rock candy \\
       \cmidrule(rl){2-2} \cmidrule(rl){4-4} %test here
       
-        & \makecell{Maltose \\(malt sugar)} & & \makecell{ barley \\ beer\\ malt extract } \\
+        & \makecell[{p{3cm}}t]{Maltose \\(malt sugar)} & & \makecell[{p{2.5cm}}t]{ barley, beer, malt extract } \\
             \cmidrule(rl){2-2} \cmidrule(rl){4-4}
-            & \makecell{Lactose \\ (milk sugar)} & & \makecell{milk \\ milk products} \\[.5\normalbaselineskip]
+            & \makecell[{p{3cm}}t]{Lactose \\ (milk sugar)} & & \makecell[{p{2.5cm}}t]{milk, milk products} \\[.5\normalbaselineskip]
             % The second part, 
-    \hline    
-    \multirow{3}{*}{\makecell{Polysaccharide \\ (multiple sugars)}} & \makecell{Amylose \\ amylopectin \\(starch)}
-    & \multirow{2}{*}{\makecell{\tabitem have to be \\ first cleaved \\ \tabitem don't taste sweet \\ \tabitem get slowly \\absorbed into \\ the blood}}
-    & \makecell{grains \\potatoes \\legumes} \\
+            \hline
+            
+            \makecell[{p{3cm}}t]{Polysaccharide \\ (multiple sugars)} &
+            \makecell[{p{2.3cm}}t]{Amylose \\ amylopectin \\ (starch)} &
+
+     \multirow{2}{*}{\makecell[{p{3cm}}t]{\tabitem have to be first cleaved \\ \tabitem don't taste sweet \\ \tabitem get slowly absorbed into  the blood stream}}
+    & \makecell[{p{2.5cm}}t]{grains, potatoes, legumes} \\
         \cmidrule(rl){2-2} \cmidrule(rl){4-4}
-        & \makecell{Glycogen \\(storage carbo-\\hydrate)} & & \makecell{liver \\ muscle} \\[.5\normalbaselineskip]
+        & \makecell[{p{2.3cm}}t]{Glycogen \\(storage carbohydrate)} &
+        & \makecell[{p{2.5cm}}t]{liver, muscle} \\[.5\normalbaselineskip]
             \cmidrule(rl){2-4}
-    & \makecell{Cellolose \\ (fibers*)}
-    & \makecell{\tabitem are indigestible \\ \tabitem absorb poisonous \\ compunds \\ \tabitem increase volume \\ of stool}
-    & \makecell{all plant based\\foods} \\
+    & \makecell[{p{3cm}}t]{Cellolose \\ (fibers*)}
+    & \makecell[{p{3cm}}t]{\tabitem are indigestible \\ \tabitem absorb poisonous  compounds \\ \tabitem increase volume  of stool}
+    & \makecell[{p{2.5cm}}t]{all plant based foods} \\
     % The last part, this is how I worked originally, with makecell and multirow, but the allignement
     % is off, plus difficulties with text overlapping stuff
     \bottomrule
