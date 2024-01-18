@@ -1,4 +1,6 @@
 \usepackage{makeidx}
+
+\usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{cite}
 %___________________________________________________
@@ -10,7 +12,7 @@
 \usepackage{wrapfig}
 \usepackage{rotating}
 \usepackage{siunitx}
-
+\usepackage{longtable}
 %"SI" units for this book - emprical units
 \DeclareSIUnit\cal{cal}
 \DeclareSIUnit\kcal{kcal}
@@ -46,13 +48,16 @@
 \usepackage{array, makecell}
 \usepackage{fancybox}
 \usepackage{textcomp}
-\usepackage{booktabs}
+\usepackage{booktabs,ltablex}
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\keepXColumns
+
 \usepackage{mwe}
 \setlength\epigraphwidth{.4\textwidth}
 
 \usepackage{framed, multido}
 \usepackage{outlines}
+\usepackage[table]{xcolor}
 
 \newcommand{\mytextbox}[2][6]{% 6\baselineskip bydefault
 \begin{framed}
@@ -64,6 +69,10 @@
 \usepackage{pict2e}
 \usepackage{minitoc}
 \usepackage{enumitem}
+
+\usepackage{lscape}
+
+\usepackage{setspace}
 \raggedbottom
 
 \newenvironment{fminipage}%
