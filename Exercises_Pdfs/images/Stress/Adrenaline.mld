@@ -1,0 +1,104 @@
+[Molden Format]
+[GEOMETRIES] ZMAT
+zmat angstroms
+ c
+ c   1 cc2     
+ c    1 cc3         2 ccc3      
+ c    3 cc4         1 ccc4          2 dih4   
+ c    4 cc5         3 ccc5          1 dih5   
+ c    5 cc6         4 ccc6          3 dih6   
+ o    3 oc7         4 occ7          5 dih7   
+ h    7 ho8         3 hoc8          4 dih8   
+ o    1 oc9         2 occ9          3 dih9   
+ h    9 ho10        1 hoc10         3 dih10  
+ h    2 hc11        1 hcc11         3 dih11  
+ h    6 hc12        2 hcc12         1 dih12  
+ h    4 hc13        3 hcc13         1 dih13  
+ c    5 cc14        4 ccc14         3 dih14  
+ o   14 oc15        5 occ15         4 dih15  
+ h   15 ho16       14 hoc16         5 dih16  
+ c   14 cc17        5 ccc17         6 dih17  
+ n   17 nc18       14 ncc18         5 dih18  
+ c   18 cn19       17 cnc19        14 dih19  
+ h   14 hc20        5 hcc20        15 dih20  
+ h   17 hc21       14 hcc21         5 dih21  
+ h   17 hc22       14 hcc22         5 dih22  
+ h   18 hn23       17 hnc23        14 dih23  
+ h   19 hc24       18 hcn24        17 dih24  
+ h   19 hc25       18 hcn25        24 dih25  
+ h   19 hc26       18 hcn26        24 dih26  
+variables
+cc2         1.450000
+cc3         1.450000
+ccc3        120.000
+cc4         1.450000
+ccc4        120.000
+dih4          0.000
+cc5         1.450000
+ccc5        120.000
+dih5          0.000
+cc6         1.450000
+ccc6        120.000
+dih6          0.000
+oc7         1.400000
+occ7        120.000
+dih7        180.000
+ho8         0.950000
+hoc8        109.471
+dih8        180.000
+oc9         1.400000
+occ9        120.000
+dih9        180.000
+ho10        0.950000
+hoc10       109.471
+dih10       180.000
+hc11        1.089000
+hcc11       120.000
+dih11       180.000
+hc12        1.089000
+hcc12       120.000
+dih12       180.000
+hc13        1.089000
+hcc13       120.000
+dih13       180.000
+cc14        1.450000
+ccc14       120.000
+dih14       180.000
+oc15        1.400000
+occ15       109.471
+dih15        60.000
+ho16        0.950000
+hoc16       109.471
+dih16       180.000
+cc17        1.450000
+ccc17       109.471
+dih17         0.000
+nc18        1.440000
+ncc18       109.471
+dih18       180.000
+cn19        1.440000
+cnc19       109.471
+dih19       180.000
+hc20        1.089000
+hcc20       109.471
+dih20       240.000
+hc21        1.089000
+hcc21       109.471
+dih21       300.000
+hc22        1.089000
+hcc22       109.471
+dih22        60.000
+hn23        1.008000
+hnc23       109.471
+dih23       300.000
+hc24        1.089000
+hcn24       109.471
+dih24       180.000
+hc25        1.089000
+hcn25       109.471
+dih25       120.000
+hc26        1.089000
+hcn26       109.471
+dih26       240.000
+constants
+end
