@@ -6,7 +6,7 @@
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "Book.Stress_regulation.bib",
+        "CurrentFile": "Psychology/Clinical_Picture.tex",
         "FileVersion": 1,
         "Files": [
             {
@@ -37,12 +37,20 @@
                 "Col": 0,
                 "EditorGroup": 0,
                 "FileName": "Book.Stress_regulation.bib",
-                "FirstLine": 479,
+                "FirstLine": 484,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Psychology/Clinical_Picture.tex",
+                "FirstLine": 16,
                 "FoldedLines": "",
                 "Line": 0
             }
         ],
         "MasterFile": "",
-        "VerticalSplit": true
+        "VerticalSplit": false
     }
 }
