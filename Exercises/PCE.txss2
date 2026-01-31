@@ -1,0 +1,56 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": true,
+        "File": "Energy/PCE/PCE.pdf"
+    },
+    "Session": {
+        "Bookmarks": [
+        ],
+        "CurrentFile": "Energy/PCE/PCE.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Energy/PCE/PCE.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Energy/PCE/PCE_theory.tex",
+                "FirstLine": 44,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Physical_Exercises/Rune_Exercises/Rune_Exercises.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Physical_Exercises/Rune_Exercises/Rune_theory.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "Physical_Exercises/Rune_Exercises/Rune_ex.tex",
+                "FirstLine": 12,
+                "FoldedLines": "",
+                "Line": 0
+            }
+        ],
+        "MasterFile": "",
+        "VerticalSplit": true
+    }
+}
