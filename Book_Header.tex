@@ -1,7 +1,8 @@
 \usepackage{makeidx}
 
 \usepackage{geometry}
-\usepackage{graphicx}
+\usepackage[dvipdfm]{graphicx} 
+\usepackage{bmpsize}
 \usepackage{cite}
 %___________________________________________________
 % Attempt to fix graphics loading problem starts here 
@@ -88,10 +89,9 @@
 
 \newcommand{\STAB}[1]{\begin{tabular}{@{}c@{}}#1\end{tabular}}
 
+\graphicspath{{./images/} {./images/Stress/} {./images/Learning/} {./images/Emotions/} {./images/Nutrition/} {./images/Psychology/} {./images/Sexuality/} {./images/Medicine/}}
+
 \usepackage{subfiles} % Best loaded last in the preamble
-
-\graphicspath{ {./images/} {./images/Stress/} {./images/Learning/} {./images/Emotions/} {./images/Nutrition/} {./images/Psychology/} {./images/Sexuality/} {./images/Medicine/}}
-
 
 \makeindex
 \author{translated by Raphael A. Nussbaum}
